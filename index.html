@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Yousri Ghribi — création de sites web, design graphique, montage vidéo et SEO YouTube." />
+  <title>YOUSRI | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#accueil" class="nav__logo">yousri<span class="nav__logo-dot">.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#accueil">Home</a>
+        <a href="#apropos">About</a>
+        <a href="#services">Services</a>
+        <a href="#projets">Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav__cta">Let's Talk &#8599;</a>
+      </nav>
+      <button class="lang-toggle mono-label" id="langToggle" type="button" aria-label="Switch language">EN</button>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="accueil" class="hero">
+      <span class="hero__chip chip--1" data-i18n="hero.chip1">Systèmes Embarqués</span>
+      <span class="hero__chip chip--2" data-i18n="hero.chip2">Linux / Ubuntu</span>
+      <span class="hero__chip chip--3" data-i18n="hero.chip3">IoT</span>
+      <span class="hero__chip chip--4" data-i18n="hero.chip4">Montage Vidéo</span>
+      <span class="hero__chip chip--5" data-i18n="hero.chip5">Marketing Digital</span>
+      <span class="hero__chip chip--6" data-i18n="hero.chip6">Programmation C</span>
+
+      <div class="hero__inner">
+        <span class="avail"><span class="avail__dot"></span><span data-i18n="hero.avail">disponible pour des projets</span></span>
+        <p class="hero__hello mono-label">// hi, i'm yousri</p>
+        <h1 class="hero__head">
+          <span>Creative</span>
+          <span class="head-grad">Developer</span>
+          <span class="head-outline">Freelance</span>
+        </h1>
+        <p class="hero__sub" data-i18n="hero.sub">
+          Créatif numérique — je conçois des sites web, des identités visuelles et des contenus vidéo
+          qui aident les marques et les créateurs à se démarquer.
+        </p>
+        <div class="hero__actions">
+          <a href="#projets" class="btn btn--accent" data-i18n="hero.cta1">Voir mes projets &#8599;</a>
+          <a href="#contact" class="btn btn--ghost" data-i18n="hero.cta2">Me contacter</a>
+        </div>
+        <div class="hero__meta mono-label">
+          <span data-i18n="hero.meta">Tunisie</span>
+          <span class="tun3d" aria-hidden="true">
+            <span class="tun3d__float">
+              <img class="tun3d__map" src="assets/tunisia.svg" alt="Carte de la Tunisie" width="20" height="42" loading="lazy" />
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero__scene" id="heroScene" aria-hidden="true">
+        <div class="avatar" id="avatar">
+          <div class="avatar__card">
+            <div class="avatar__plate avatar__plate--back" aria-hidden="true"></div>
+            <div class="avatar__plate avatar__plate--front">
+              <img class="avatar__img" src="assets/avatar.png" alt="" />
+            </div>
+            <span class="avatar__glow" aria-hidden="true"></span>
+          </div>
+          <span class="avatar__shadow" aria-hidden="true"></span>
+        </div>
+        <span class="hcard hcard--1"><span class="hcard__float">printf("bonjour_w");</span></span>
+        <span class="hcard hcard--2"><span class="hcard__float">init_system();</span></span>
+        <span class="hcard hcard--3"><span class="hcard__float">#include &lt;curiosity.h&gt;</span></span>
+      </div>
+
+      <span class="obj3d obj3d--cube" data-depth="34"><span class="obj3d__anim"><span class="cube"><i class="cubef cubef--f"></i><i class="cubef cubef--b"></i><i class="cubef cubef--l"></i><i class="cubef cubef--r"></i><i class="cubef cubef--t"></i><i class="cubef cubef--d"></i></span></span></span>
+      <span class="obj3d obj3d--play" data-depth="26"><span class="obj3d__anim"><span class="play"><span class="play__ring"></span><b class="play__tri"></b></span></span></span>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span data-i18n="marquee.1">Systèmes Embarqués</span>
+        <span data-i18n="marquee.2">IoT</span>
+        <span data-i18n="marquee.3">C</span>
+        <span data-i18n="marquee.4">Linux</span>
+        <span data-i18n="marquee.5">Web Design</span>
+        <span data-i18n="marquee.6">Motion</span>
+        <span data-i18n="marquee.1">Systèmes Embarqués</span>
+        <span data-i18n="marquee.2">IoT</span>
+        <span data-i18n="marquee.3">C</span>
+        <span data-i18n="marquee.4">Linux</span>
+        <span data-i18n="marquee.5">Web Design</span>
+        <span data-i18n="marquee.6">Motion</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="apropos" class="section">
+      <div class="section__ghost" aria-hidden="true">About</div>
+      <div class="section__inner">
+        <p class="mono-label section__tag">// about me</p>
+        <div class="about">
+          <div class="about__card">
+            <h2 class="about__title" data-i18n-html="about.title">
+              Étudiant en <span class="pink">Systèmes Embarqués &amp; IoT</span>, avec le sens du terrain
+              et la tête dans le code.
+            </h2>
+            <p class="about__text" data-i18n-html="about.p2">
+              Créatif numérique polyvalent, je travaille le <strong>développement web</strong>, le <strong>graphisme</strong>,
+              le <strong>montage vidéo</strong> et la <strong>création de contenu</strong>. Je conçois des sites modernes et
+              responsives, je crée des identités visuelles professionnelles, je monte des vidéos engageantes et je conçois
+              des vignettes YouTube qui attirent l'œil.<br /><br />
+              Je maîtrise aussi le <strong>SEO YouTube</strong> et l'optimisation de contenu. Mon approche combine créativité,
+              compétences techniques et souci du détail pour livrer un travail de qualité qui aide les entreprises et les
+              créateurs à se démarquer.<br /><br />
+              Donnons vie à vos idées et créons ensemble quelque chose d'impactant.
+            </p>
+            <ul class="about__skills">
+              <li data-i18n="skills.s1">Programmation C</li>
+              <li data-i18n="skills.s2">Linux / Ubuntu</li>
+              <li data-i18n="skills.s3">Systèmes Embarqués</li>
+              <li data-i18n="skills.s4">IoT</li>
+              <li data-i18n="skills.s5">HTML / CSS / JS</li>
+              <li data-i18n="skills.s6">Photoshop / After Effects</li>
+              <li data-i18n="skills.s7">Canva / CapCut</li>
+              <li data-i18n="skills.s8">Marketing Digital</li>
+            </ul>
+            <a href="https://github.com/yosrighribi-sudo" class="btn btn--ghost" target="_blank" rel="noopener" data-i18n="about.github">Mon GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <span class="obj3d obj3d--ring" data-depth="40"><span class="obj3d__anim"><span class="ring"></span><span class="orbit"><span class="orbit__dot"></span></span></span></span>
+      <span class="obj3d obj3d--term" data-depth="28"><span class="obj3d__anim"><span class="term"><span class="term__bar"><b class="term__dot"></b><b class="term__dot"></b><b class="term__dot"></b></span><span class="term__line">$ whoami ▍</span></span></span></span>
+      <span class="obj3d obj3d--frame" data-depth="32"><span class="obj3d__anim"><span class="frame"><span class="frame__thumb"><b class="frame__play2"></b></span><span class="frame__lines"><i></i><i></i><i></i></span></span></span></span>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section--alt">
+      <div class="section__ghost section__ghost--right" aria-hidden="true">Services</div>
+      <div class="section__inner">
+        <p class="mono-label section__tag">// services</p>
+        <h2 class="section__title" data-i18n-html="services.title">Ce que je peux faire <span class="pink">pour toi</span></h2>
+        <div class="services">
+          <article class="service-card card-hover">
+            <div class="service-card__num mono-label">01</div>
+            <h3 data-i18n="services.s1.title">Développement Web</h3>
+            <p data-i18n="services.s1.desc">Des sites vitrines modernes, responsive et avec du caractère — comme celui-ci.</p>
+            <ul class="service-card__list">
+              <li data-i18n="services.s1.l1">Sites responsives</li>
+              <li data-i18n="services.s1.l2">Animations &amp; motion</li>
+              <li data-i18n="services.s1.l3">SEO de base</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Get started &#8599;</a>
+          </article>
+
+          <article class="service-card card-hover">
+            <div class="service-card__num mono-label">02</div>
+            <h3 data-i18n="services.s2.title">UI / Graphisme</h3>
+            <p data-i18n="services.s2.desc">Visuels, mises en page et identité visuelle pour donner de l'impact à ta marque.</p>
+            <ul class="service-card__list">
+              <li data-i18n="services.s2.l1">Identité visuelle</li>
+              <li data-i18n="services.s2.l2">Affiches &amp; posts réseaux</li>
+              <li data-i18n="services.s2.l3">Maquettes simples</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Get started &#8599;</a>
+          </article>
+
+          <article class="service-card card-hover">
+            <div class="service-card__num mono-label">03</div>
+            <h3 data-i18n="services.s3.title">Montage Vidéo &amp; Motion</h3>
+            <p data-i18n="services.s3.desc">Édition, motion design et contenus courts pour réseaux sociaux qui captent l'attention.</p>
+            <ul class="service-card__list">
+              <li data-i18n="services.s3.l1">Montage &amp; colo</li>
+              <li data-i18n="services.s3.l2">Motion design</li>
+              <li data-i18n="services.s3.l3">Contenus verticals</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Get started &#8599;</a>
+          </article>
+
+          <article class="service-card card-hover">
+            <div class="service-card__num mono-label">04</div>
+            <h3 data-i18n="services.s4.title">YouTube SEO</h3>
+            <p data-i18n="services.s4.desc">Optimisation de chaînes et de vidéos pour mieux ranker sur YouTube et gagner plus de vues.</p>
+            <ul class="service-card__list">
+              <li data-i18n="services.s4.l1">Mots-clés &amp; titres</li>
+              <li data-i18n="services.s4.l2">Miniatures accrocheuses</li>
+              <li data-i18n="services.s4.l3">Description &amp; tags</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Get started &#8599;</a>
+          </article>
+        </div>
+      </div>
+
+      <span class="obj3d obj3d--bars" data-depth="22"><span class="obj3d__anim">
+        <b class="bars__bar" style="--h:52%;--d:0s"></b>
+        <b class="bars__bar" style="--h:78%;--d:0.3s"></b>
+        <b class="bars__bar" style="--h:34%;--d:0.6s"></b>
+      </span></span>
+      <span class="obj3d obj3d--orb" data-depth="24"><span class="obj3d__anim"><span class="orb"></span></span></span>
+    </section>
+
+    <!-- SELECTED WORK (scroll scene) -->
+    <section id="projets" class="work-wrap">
+      <div class="work-scene">
+        <p class="work-scene__label mono-label">// selected work</p>
+        <div class="work-scene__word" aria-hidden="true">
+          <span class="w-letter">W</span><span class="w-letter">O</span><span class="w-letter">R</span><span class="w-letter">K</span><span class="w-letter">S</span>
+        </div>
+
+        <div class="work-scene__cards">
+          <article class="w-card card-hover" data-i="0">
+            <div class="w-card__top">
+              <span class="w-card__cat mono-label">Web</span>
+              <span class="w-card__year mono-label">2026</span>
+            </div>
+            <h3 class="w-card__title" data-i18n-html="work.w1.title">Portfolio<br />Personnel</h3>
+            <p class="w-card__desc" data-i18n="work.w1.desc">Ce site — vitrine responsive en HTML, CSS &amp; JavaScript, pensée pour évoluer avec mon parcours.</p>
+            <div class="w-card__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <span class="w-card__link" data-i18n="work.w1.link">Visiter &#8599;</span>
+          </article>
+
+          <article class="w-card card-hover" data-i="1">
+            <div class="w-card__top">
+              <span class="w-card__cat mono-label">SEO</span>
+              <span class="w-card__year mono-label" data-i18n="work.inprogress">en cours</span>
+            </div>
+            <h3 class="w-card__title" data-i18n-html="work.w2.title">YouTube<br />SEO</h3>
+            <p class="w-card__desc" data-i18n="work.w2.desc">Optimisation de contenu — titres, descriptions, mots-clés et miniatures — pour améliorer le référencement des vidéos sur YouTube.</p>
+            <div class="w-card__tags">
+              <span data-i18n="work.seo1">Mots-clés</span><span data-i18n="work.seo2">Miniatures</span><span data-i18n="work.seo3">Analyse</span>
+            </div>
+            <span class="w-card__link" data-i18n="work.w2.link">En cours &#8599;</span>
+          </article>
+
+          <article class="w-card card-hover" data-i="2">
+            <div class="w-card__top">
+              <span class="w-card__cat mono-label">Video</span>
+              <span class="w-card__year mono-label">2024</span>
+            </div>
+            <h3 class="w-card__title" data-i18n-html="work.w4.title">Montage<br />Vidéo</h3>
+            <p class="w-card__desc" data-i18n="work.w4.desc">Édition, motion design et contenus pour les réseaux sociaux de l'atelier — du brut à la mise en ligne.</p>
+            <div class="w-card__tags">
+              <span>Premiere Pro</span><span>After Effects</span><span>CapCut</span>
+            </div>
+            <span class="w-card__link" data-i18n="work.w4.link">Voir le format &#8599;</span>
+          </article>
+        </div>
+
+        <a class="work-scene__all" href="https://github.com/yosrighribi-sudo" target="_blank" rel="noopener">View All Projects &#8599;</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--alt">
+      <div class="section__ghost section__ghost--right" aria-hidden="true">Contact</div>
+      <div class="section__inner">
+        <p class="mono-label section__tag">// contact</p>
+        <h2 class="section__title" data-i18n-html="contact.title">Un projet, une idée ? <span class="pink">Parlons-en.</span></h2>
+
+        <div class="contact">
+          <div class="contact__info">
+            <div class="contact__line">
+              <span class="mono-label" data-i18n="contact.location">Localisation</span>
+              <span data-i18n="contact.country">Tunisie</span>
+            </div>
+            <div class="contact__line">
+              <span class="mono-label" data-i18n="contact.social">Social</span>
+              <div class="contact__socials">
+                <a href="https://www.linkedin.com/in/yousri-gh-6ba72a271/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/yosrighribi-sudo" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__cta">
+            <h3 class="contact__cta-title" data-i18n="contact.ctaTitle">Parlons-en en direct.</h3>
+            <p class="contact__cta-text" data-i18n="contact.ctaText">
+              Le plus rapide : envoie-moi un message sur LinkedIn ou GitHub — je réponds vite.
+            </p>
+            <div class="contact__cta-actions">
+              <a href="https://www.linkedin.com/in/yousri-gh-6ba72a271/" target="_blank" rel="noopener" class="btn btn--accent">LinkedIn &#8599;</a>
+              <a href="https://github.com/yosrighribi-sudo" target="_blank" rel="noopener" class="btn btn--ghost">GitHub &#8599;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="obj3d obj3d--code" data-depth="30"><span class="obj3d__anim"><span class="codeb">&#60;/&#62;</span></span></span>
+      <span class="obj3d obj3d--spark" data-depth="36"><span class="obj3d__anim"><span class="spark"></span></span></span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__brand mono-label">yousri<span class="pink">.</span> © 2026</p>
+    <p class="footer__note" data-i18n="footer.note">Conçu &amp; développé par Yousri — Creative Developer</p>
+    <a href="#accueil" class="footer__top mono-label">Back to top &#8593;</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
